@@ -1,0 +1,236 @@
+body {
+    width: 100%;
+    overflow: hidden;
+}
+
+.hide {
+    display: none;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+}
+
+    .page .wrap {
+        height: 500px;
+    }
+
+        .page .wrap .img_up {
+            height: auto;
+            width: 24px;
+            position: absolute;
+            left: 50%;
+            top: 93%;
+            margin-left: -12px;
+        }
+
+.page-1-1 {
+    background: url(images/P1_bg.png) #0a763c;
+    background-size: cover;
+}
+
+.page-2-1 {
+    background: url(images/P2_bg.png) #009dae;
+    background-size: cover;
+}
+
+.page-3-1 {
+    background: url(images/P3_bg.png) #966dcd;
+    background-size: cover;
+}
+
+.page-4-1 {
+    background: url(images/P4_bg.png) #45b4c7;
+    background-size: cover;
+}
+
+.page-5-1 {
+    background: url(images/P5_bg.png) #91c32e;
+    background-size: cover;
+}
+
+.page-6-1 {
+    background: url(images/P6_bg.png) #3eb9c0;
+    background-size: cover;
+}
+
+.page-current {
+    z-index: 1;
+}
+
+.page-1-1 .img_1 {
+    height: auto;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    margin-left: -22%;
+}
+
+.page-1-1 .img_2 {
+    height: auto;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    margin-left: -37%;
+}
+
+.page-1-1 .img_3 {
+    height: auto;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    margin-left: -42%;
+}
+
+.page-2-1 .img_1 {
+    height: auto;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    margin-left: -40%;
+    z-index: 2;
+}
+
+.page-3-1 .img_1 {
+    height: auto;
+    width: 72%;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    margin-left: -45%;
+}
+
+.page-3-1 .img_2 {
+    height: auto;
+    width: 62%;
+    position: absolute;
+    left: 50%;
+    top: 26%;
+    margin-left: -32%;
+}
+
+.page-3-1 .img_3 {
+    height: auto;
+    width: 72%;
+    position: absolute;
+    left: 50%;
+    top: 36%;
+    margin-left: -32%;
+}
+
+.page-3-1 .img_4 {
+    height: auto;
+    width: 98%;
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    margin-left: -50%;
+}
+
+.page-4-1 .img_1 {
+    height: auto;
+    width: 78%;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    margin-left: -45%;
+}
+
+.page-4-1 .img_2 {
+    height: auto;
+    width: 28%;
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    margin-left: -32%;
+}
+
+.page-4-1 .img_3 {
+    height: auto;
+    width: 72%;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -32%;
+}
+
+.page-4-1 .img_4 {
+    height: auto;
+    width: 98%;
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    margin-left: -50%;
+}
+
+.page-5-1 .img_1 {
+    height: auto;
+    width: 78%;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    margin-left: -45%;
+}
+
+.page-5-1 .img_2 {
+    height: auto;
+    width: 28%;
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    margin-left: -32%;
+}
+
+.page-5-1 .img_3 {
+    height: auto;
+    width: 72%;
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    margin-left: -32%;
+}
+
+.page-5-1 .img_4 {
+    height: auto;
+    width: 98%;
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    margin-left: -50%;
+}
+
+.page-6-1 .img_1 {
+    height: auto;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    margin-left: -40%;
+    z-index: 2;
+}
+
+.page-6-1 .img_2 {
+    height: auto;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 26%;
+    margin-left: -40%;
+}
+
+.page-6-1 .img_3 {
+    height: auto;
+    width: 94%;
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    margin-left: -47%;
+}
