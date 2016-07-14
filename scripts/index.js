@@ -12,12 +12,28 @@
     $('.wrap').css('-webkit-transform', 'scale(' + s + ',' + s + ') translate(0px,-' + ss + 'px)');
 
     var size = document.body.clientWidth / 320 * 20;
-    $('.head').css('font-size', size*1.3 + 'px')
-    $('.subhead').css('font-size', size*0.7 + 'px')
+    $('.head').css('font-size', size * 1.3 + 'px')
+    $('.subhead').css('font-size', size * 0.7 + 'px')
     $('li').css('font-size', size + 'px')
-    $('.title').css('font-size', size*0.7 + 'px')
+    $('.title').css('font-size', size * 0.7 + 'px')
     $('.line').css('font-size', size * 0.5 + 'px')
     $('.ps').css('font-size', size * 0.5 + 'px')
+
+    var play = true;
+    var media = document.getElementById("media");
+    $("#audio_btn").click(function (sender) {
+        if (play) {
+            $("#audio_btn").removeClass("play_yingfu").addClass("off");
+            $("#yinfu").removeClass("rotate");
+            media.pause();
+        }
+        else {
+            $("#audio_btn").removeClass("off").addClass("play_yingfu");
+            $("#yinfu").addClass("rotate");
+            media.play();
+        }
+        play = !play;
+    })
 
     document.addEventListener('touchmove', function (event) {
         event.preventDefault();
