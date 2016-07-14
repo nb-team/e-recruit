@@ -19,6 +19,42 @@ body {
         height: 500px;
     }
 
+        .page .wrap .text {
+            font-family:'Microsoft Yahei', 'Î¢ÈíÑÅºÚ';
+            text-align: left;
+        }
+
+            .page .wrap .text li {
+                list-style-type: disc;
+                list-style-position: inside;
+                padding-top:10px;
+            }
+
+            .page .wrap .text .head {
+                font-weight: normal;
+            }
+
+            .page .wrap .text .subhead {
+                font-weight: normal;
+            }
+
+            .page .wrap .text .ps {
+                font-weight: normal;
+            }
+
+            .page .wrap .text .title {
+                position: relative;
+                font-weight: bold;
+                top: -3px;
+                left: -3%;
+            }
+
+            .page .wrap .text .line {
+                position: relative;
+                padding-top: 5px;
+                left:4%
+            }
+
         .page .wrap .img_up {
             height: auto;
             width: 24px;
@@ -114,7 +150,17 @@ body {
     position: absolute;
     left: 50%;
     top: 26%;
-    margin-left: -32%;
+    margin-left: -35%;
+}
+
+.page-3-1 .text_2 {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    margin-left: -35%;
+    color:#2c1050;
 }
 
 .page-3-1 .img_3 {
@@ -124,6 +170,26 @@ body {
     left: 50%;
     top: 36%;
     margin-left: -32%;
+}
+
+.page-3-1 .text_3 {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    margin-left: -35%;
+    color: #571297;
+}
+
+.page-3-1 .text_4 {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 68%;
+    margin-left: -32%;
+    color: #CEADEC;
 }
 
 .page-3-1 .img_4 {

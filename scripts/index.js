@@ -1,4 +1,5 @@
 (function () {
+    //jQuery.noConflict();
 
     var totalPage = 6
     var now = { row: 1, col: 1 }, last = { row: 0, col: 0 };
@@ -9,6 +10,15 @@
     ss = 250 * (1 - s);
 
     $('.wrap').css('-webkit-transform', 'scale(' + s + ',' + s + ') translate(0px,-' + ss + 'px)');
+
+    var size = document.body.clientWidth / 320 * 20;
+    //console.log("size:"+size)
+    $('.head').css('font-size', size*1.3 + 'px')
+    $('.subhead').css('font-size', size*0.7 + 'px')
+    $('li').css('font-size', size + 'px')
+    $('.title').css('font-size', size*0.7 + 'px')
+    $('.line').css('font-size', size * 0.5 + 'px')
+    $('.ps').css('font-size', size * 0.5 + 'px')
 
     document.addEventListener('touchmove', function (event) {
         event.preventDefault();
@@ -87,5 +97,4 @@
             isAnimating = false;
         }, 600);
     }
-
 })();
