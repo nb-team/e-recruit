@@ -165,6 +165,11 @@ body {
     background: url(images/P6_bg.png) #3eb9c0;
     background-size: cover;
 }
+.page-7-1 {
+    background: url(images/P1_bg.png) #0a763c;
+    background-size: cover;
+}
+
 
 .page-current {
     z-index: 1;
@@ -396,4 +401,61 @@ body {
     left: 50%;
     top: 28%;
     margin-left: -47%;
+}
+
+.page-7-1 .img_1 {
+    height: auto;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    margin-left: -45%;
+    z-index:1;
+}
+
+.page-7-1 .img_2 {
+    height: auto;
+    width: 65%;
+    position: absolute;
+    left: 50%;
+    top: 19%;
+    margin-left: -38%;
+    z-index:0;
+}
+.page-7-1 .img_3 {
+    height: auto;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    margin-left: -38%;
+    z-index:1;
+}
+.page-7-1 .img_4 {
+    height: auto;
+    width: 35%;
+    position: absolute;
+    left: 50%;
+    top: 61%;
+    margin-left: -39%;
+    z-index:1;
+}
+.page-7-1 .img_5 {
+    height: auto;
+    width: 35%;
+    position: absolute;
+    left: 80%;
+    top: 61%;
+    margin-left: -32%;
+    z-index:1;
+}
+
+.page-7-1 .img_6 {
+    height: auto;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    margin-left: -22%;
+    z-index:1;
 }
