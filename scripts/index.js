@@ -59,7 +59,8 @@
     var height = document.body.scrollHeight;
     
     var ratio = height/width;
-   
+    
+    alert(height + "/" + width + ":" + ratio);
     if(ratio <= 1.5)
     {
         $("#resumeBtn").css("top","63%");
