@@ -113,8 +113,3 @@
         }, 600);
     }
 })();
-
-$(window).bind('resize load', function () {
-    $("body").css("zoom", $(window).width() / 640);
-    $("body").css("display", "block");
-});
