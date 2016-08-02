@@ -64,6 +64,14 @@
     if(ratio <= 1.5)
     {
         $("#resumeBtn").css("top","65%");
+    } 
+    else if(ratio > 1.5 && ratio < 1.77)
+    {
+        $("#resumeBtn").css("top","62%");
+    }
+    else if(ratio >= 1.77)
+    {
+        $("#resumeBtn").css("top","59%");
     }    
 
     //$("#resumeBtn").css("top",59 +   "%");
