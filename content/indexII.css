@@ -436,7 +436,7 @@
     width: 32%;
     position: relative;
     left: 10%;
-    top:28%;
+    top:0%;
     margin-left: 3%;
     z-index:1;
 }
@@ -446,7 +446,7 @@
     width: 32%;
     position: relative;
     left: 60%;
-    top :28%;
+    top :0%;
     margin-left: -47%;
     z-index:1;
 }
