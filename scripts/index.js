@@ -55,6 +55,26 @@
         if (last.row != 1) { now.row = last.row - 1; now.col = 1; pageMove(towards.down); }
     })
 
+    var width = document.body.scrollWidth;
+    var height = document.body.scrollHeight;
+    
+    var ratio = height/width;
+   
+    if(ratio <= 1.5)
+    {
+        $("#resumeBtn").css("top","63%");
+    }    
+    if(ratio < 1.6)
+    {
+        $("#resumeBtn").css("top","62%");
+    }
+    else if(ratio > 1.7)
+    {
+        $("#resumeBtn").css("top","59%");
+    }
+    
+    //$("#resumeBtn").css("top",59 +   "%");
+    
     //$(document).swipeLeft(function () {
     //    if (isAnimating) return;
     //    last.row = now.row;
