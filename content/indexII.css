@@ -1,4 +1,4 @@
-body {
+ï»¿body {
     width: 100%;
     overflow: hidden;
 }
@@ -81,7 +81,7 @@ body {
     height: 100%;
     position: absolute;
     text-align: center;
-    font-family: 'Microsoft Yahei', 'Î¢ÈíÑÅºÚ';
+    font-family: 'Microsoft Yahei', 'å¾®è½¯é›…é»‘';
     text-align: left;
 }
 
@@ -428,7 +428,7 @@ body {
 .page-7-1 .div_mian {
     height: auto;
     position: absolute;
-    top: 62%;
+    top: 58%;
 }
 
 .page-7-1 .img_4 {
@@ -436,7 +436,7 @@ body {
     width: 32%;
     position: relative;
     left: 10%;
-    top:0%;
+    top:28%;
     margin-left: 3%;
     z-index:1;
 }
@@ -446,7 +446,7 @@ body {
     width: 32%;
     position: relative;
     left: 60%;
-    top :0%;
+    top :28%;
     margin-left: -47%;
     z-index:1;
 }
