@@ -63,17 +63,9 @@
     alert(height + "/" + width + ":" + ratio);
     if(ratio <= 1.5)
     {
-        $("#resumeBtn").css("top","59%");
+        $("#resumeBtn").css("top","65%");
     }    
-    if(ratio < 1.6)
-    {
-        $("#resumeBtn").css("top","62%");
-    }
-    else if(ratio > 1.7)
-    {
-        $("#resumeBtn").css("top","59%");
-    }
-    
+
     //$("#resumeBtn").css("top",59 +   "%");
     
     //$(document).swipeLeft(function () {
