@@ -8,17 +8,18 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <meta name="format-detection" content="telephone=no">
     <meta name="format-detection" content="email=no">
-    <div style="margin:0 auto;display:none;">
+    <!--<div style="margin:0 auto;display:none;">
         <img src="content/images/logo.jpg" />
-    </div>
+    </div>-->
     <link rel="stylesheet" type="text/css" href="content/reset.css" />
-    <!--<link rel="stylesheet" type="text/css" href="content/index.css" />-->
+    <link rel="stylesheet" type="text/css" href="content/index.css" />
     <link rel="stylesheet" type="text/css" href="content/animations.css" />
     <!--<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 400px)" href="css/tinyScreen.css" />-->
     <!--<link href="content/index.css" rel="stylesheet" media="all and (min-height: 730px) and (max-device-height:1400px)">
     <link href="content/indexII.css" rel="stylesheet" media="all and (max-height: 400px)">-->
-    <link rel="stylesheet" type="text/css" media="screen and (min-height: 730px) and (max-device-height: 1024px)" href="content/index.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (max-device-height: 730px)" href="content/indexII.css" />
+    <!--<link rel="stylesheet" type="text/css" media="screen and (min-height: 730px) and (max-device-height: 1024px)" href="content/index.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-height: 730px)" href="content/indexII.css" />-->
+   
 </head>
 <body>
     <div>
@@ -141,7 +142,7 @@
                 <img class="img_6 pt-page-moveFromTop" src="content/images/logo.png" />
                 <img class="img_1 pt-page-moveFromTop" src="content/images/P7_01.png" />
                 <img class="img_2 pt-page-moveFromLeft" src="content/images/P7_02.png" />
-                <div class="div_mian">
+                <div class="div_mian" id="btn_image">
                     <!--<img class="img_3 pt-page-moveCircle" src="content/images/P7_03.png" />-->
                     <a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&kw=%E5%AE%8F%E5%88%A9%E9%87%91%E8%9E%8D%E5%85%A8%E7%90%83%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83&sm=0&p=1 ">
                         <img class="img_4 pt-page-moveCircle" style="zoom:reset" src="content/images/P7_04.png" />
@@ -156,5 +157,40 @@
     <script src="scripts/zepto.min.js"></script>
     <script src="scripts/touch.js"></script>
     <script src="scripts/index.js"></script>
+    <script>
+        window.addEventListener("resize", function () {
+            // 得到屏幕尺寸 (内部/外部宽度，内部/外部高度)
+            changedivPosition();
+        }, false);
+
+        changedivPosition();
+
+        function changedivPosition() {
+            var per = document.getElementById("btn_image");
+            //var j = per.style.top;
+            //alert(getComputedStyle(per, null).top);
+            var sheight = document.body.scrollHeight;
+            if (sheight > 770) {
+                per.style.top = sheight * 0.59 + 'px';
+            }
+            else if (sheight > 730 && sheight < 770)
+            {
+                per.style.top = sheight * 0.60 + 'px';
+            }
+            else if(sheight <730)
+            {
+                per.style.top = sheight * 0.58 + 'px';
+            }
+
+            alert('屏幕高度：' + document.body.scrollHeight);
+            //if (document.body.scrollHeight > logoHeight) {
+            //    document.getElementById('btn_image').style.top = '60%';
+            //} else {
+            //    document.getElementById('btn_image').style.position = '';
+            //}
+        }
+    </script>
 </body>
+
+
 </html>
