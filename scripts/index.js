@@ -60,7 +60,7 @@
     
     var ratio = height/width;
     
-    alert(height + "/" + width + ":" + ratio);
+    //alert(height + "/" + width + ":" + ratio);
     if(ratio <= 1.5)
     {
         $("#resumeBtn").css("top","65%");
