@@ -85,56 +85,61 @@ body {
     text-align: left;
 }
 
-    .page .wrap {
-        height: 500px;
-    }
+.page .wrap {
+    height: 500px;
+}
 
-        .page .wrap .img_up {
-            height: auto;
-            width: 24px;
-            position: absolute;
-            left: 50%;
-            top: 93%;
-            margin-left: -12px;
-        }
+.page .wrap .body {
+    margin-top:30px;
+}
 
-        .page .wrap .text li {
-            list-style-type: disc;
-            list-style-position: inside;
-            padding-top: 10px;
-        }
+.page .wrap .img_up {
+    height: auto;
+    width: 24px;
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    margin-left: -12px;
+}
 
-        .page .wrap .text .head {
-            font-weight: normal;
-        }
+.page .wrap .text li {
+    list-style-type: none;
+    list-style-position: inside;
+    padding-top: 10px;
+    padding-left: 10px;
+}
 
-        .page .wrap .text .subhead {
-            font-weight: normal;
-        }
+.page .wrap .text .head {
+    font-weight: normal;
+}
 
-        .page .wrap .text .title {
-            position: relative;
-            font-weight: bold;
-            top: -3px;
-            left: -3%;
-        }
+.page .wrap .text .subhead {
+    font-weight: normal;
+}
 
-        .page .wrap .text .line {
-            position: relative;
-            padding-top: 5px;
-            left: 4%;
-        }
+.page .wrap .text .title {
+    position: relative;
+    font-weight: bold;
+    top: -3px;
+    left: -3%;
+}
 
-        .page .wrap .text .footer {
-            padding-top: 5%;
-            font-weight: normal;
-        }
+.page .wrap .text .line {
+    position: relative;
+    padding-top: 5px;
+    left: 4%;
+}
 
-        .page .wrap .text .ps {
-            position: relative;
-            left: 4%;
-            font-weight: normal;
-        }
+.page .wrap .text .footer {
+    padding-top: 5%;
+    font-weight: normal;
+}
+
+.page .wrap .text .ps {
+    position: relative;
+    left: 4%;
+    font-weight: normal;
+}
 
 .page-1-1 {
     background: url(images/P1_bg.png) #0a763c;
