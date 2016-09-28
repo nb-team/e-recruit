@@ -1,7 +1,7 @@
 (function () {
     //jQuery.noConflict();
 
-    var totalPage = 7
+    var totalPage = 8
     var now = { row: 1, col: 1 }, last = { row: 0, col: 0 };
     const towards = { up: 1, right: 2, down: 3, left: 4 };
     var isAnimating = false;

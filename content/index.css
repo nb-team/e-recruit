@@ -157,21 +157,26 @@ body {
 }
 
 .page-4-1 {
-    background: url(images/P4_bg.png) #45b4c7;
+    background: url(images/P3_bg.png) #966dcd;
     background-size: cover;
 }
 
 .page-5-1 {
-    background: url(images/P5_bg.png) #91c32e;
+    background: url(images/P5_bg.png) #45b4c7;
     background-size: cover;
 }
 
 .page-6-1 {
-    background: url(images/P6_bg.png) #3eb9c0;
+    background: url(images/P6_bg.png) #91c32e;
     background-size: cover;
 }
 
 .page-7-1 {
+    background: url(images/P7_bg.png) #3eb9c0;
+    background-size: cover;
+}
+
+.page-8-1 {
     background: url(images/P1_bg.png) #0a763c;
     background-size: cover;
 }
@@ -250,7 +255,7 @@ body {
     width: 100%;
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 24%;
     margin-left: -35%;
 }
 
@@ -277,7 +282,7 @@ body {
 
 .page-4-1 .img_1 {
     height: auto;
-    width: 78%;
+    width: 72%;
     position: absolute;
     left: 50%;
     top: 5%;
@@ -286,11 +291,11 @@ body {
 
 .page-4-1 .img_2 {
     height: auto;
-    width: 28%;
+    width: 62%;
     position: absolute;
     left: 50%;
-    top: 28%;
-    margin-left: -32%;
+    top: 26%;
+    margin-left: -35%;
 }
 
 .page-4-1 .img_3 {
@@ -298,7 +303,7 @@ body {
     width: 72%;
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 36%;
     margin-left: -32%;
 }
 
@@ -312,11 +317,15 @@ body {
 }
 
     .page-4-1 .text_3 .header {
-        color: #0B4B52;
+        color: #2c1050;
     }
 
     .page-4-1 .text_3 .body {
-        color: #0D565D;
+        color: #571297;
+    }
+
+    .page-4-1 .text_3 .footer {
+        color: #CEADEC;
     }
 
 .page-4-1 .img_4 {
@@ -346,7 +355,60 @@ body {
     margin-left: -32%;
 }
 
+.page-5-1 .img_3 {
+    height: auto;
+    width: 72%;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -32%;
+}
+
 .page-5-1 .text_3 {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 24%;
+    margin-left: -35%;
+}
+
+    .page-5-1 .text_3 .header {
+        color: #0B4B52;
+    }
+
+    .page-5-1 .text_3 .body {
+        color: #0D565D;
+    }
+
+.page-5-1 .img_4 {
+    height: auto;
+    width: 98%;
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    margin-left: -50%;
+}
+
+.page-6-1 .img_1 {
+    height: auto;
+    width: 78%;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    margin-left: -45%;
+}
+
+.page-6-1 .img_2 {
+    height: auto;
+    width: 28%;
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    margin-left: -32%;
+}
+
+.page-6-1 .text_3 {
     height: auto;
     width: 100%;
     position: absolute;
@@ -355,15 +417,15 @@ body {
     margin-left: -35%;
 }
 
-    .page-5-1 .text_3 .header {
+    .page-6-1 .text_3 .header {
         color: #4D681A;
     }
 
-    .page-5-1 .text_3 .body {
+    .page-6-1 .text_3 .body {
         color: #3E570C;
     }
 
-.page-5-1 .img_3 {
+.page-6-1 .img_3 {
     height: auto;
     width: 72%;
     position: absolute;
@@ -372,7 +434,7 @@ body {
     margin-left: -32%;
 }
 
-.page-5-1 .img_4 {
+.page-6-1 .img_4 {
     height: auto;
     width: 98%;
     position: absolute;
@@ -381,7 +443,7 @@ body {
     margin-left: -50%;
 }
 
-.page-6-1 .img_1 {
+.page-7-1 .img_1 {
     height: auto;
     width: 80%;
     position: absolute;
@@ -391,7 +453,7 @@ body {
     z-index: 2;
 }
 
-.page-6-1 .img_2 {
+.page-7-1 .img_2 {
     height: auto;
     width: 80%;
     position: absolute;
@@ -400,7 +462,7 @@ body {
     margin-left: -40%;
 }
 
-.page-6-1 .img_3 {
+.page-7-1 .img_3 {
     height: auto;
     width: 94%;
     position: absolute;
@@ -411,7 +473,7 @@ body {
 
 
 
-.page-7-1 .img_1 {
+.page-8-1 .img_1 {
     height: auto;
     width: 90%;
     position: absolute;
@@ -421,7 +483,7 @@ body {
     z-index: 1;
 }
 
-.page-7-1 .img_2 {
+.page-8-1 .img_2 {
     height: auto;
     width: 65%;
     position: absolute;
@@ -431,20 +493,20 @@ body {
     z-index: 0;
 }
 
-.page-7-1 .div_mian {
+.page-8-1 .div_mian {
     height: auto;
     position: absolute;
     top: 60%;
 }
 
 
-.page-7-1 .div_mian {
+.page-8-1 .div_mian {
     height: auto;
     position: absolute;
     top: 59%;
 }
 
-.page-7-1 .img_4 {
+.page-8-1 .img_4 {
     height: auto;
     width: 32%;
     position: relative;
@@ -454,7 +516,7 @@ body {
     z-index: 1;
 }
 
-.page-7-1 .img_5 {
+.page-8-1 .img_5 {
     height: auto;
     width: 32%;
     position: relative;
@@ -464,7 +526,7 @@ body {
     z-index: 1;
 }
 
-.page-7-1 .img_6 {
+.page-8-1 .img_6 {
     height: auto;
     width: 40%;
     position: absolute;
