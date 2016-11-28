@@ -7,16 +7,6 @@ body {
     display: none;
 }
 
-.li-line-spacing {
-margin-top:-25px;
-}
-.title img {
-position:relative;
-top:15px;
--moz-transform:rotate(30deg);
--webkit-transform:rotate(30deg);
-}
-
 #audio_btn {
     position: absolute;
     right: 10px;
@@ -151,42 +141,42 @@ top:15px;
     font-weight: normal;
 }
 
-.page-1-1 {
+.home-page {
     background: url(images/P1_bg.png) #0a763c;
     background-size: cover;
 }
 
-.page-2-1 {
+.introduction-page {
     background: url(images/P2_bg.png) #009dae;
     background-size: cover;
 }
 
-.page-3-1 {
+.development-page {
     background: url(images/P3_bg.png) #966dcd;
     background-size: cover;
 }
 
-/*.page-4-1 {
+/*.operation-service-page {
     background: url(images/P3_bg.png) #966dcd;
     background-size: cover;
 }*/
 
-.page-4-1 {
+.operation-service-page {
     background: url(images/P5_bg.png) #45b4c7;
     background-size: cover;
 }
 
-.page-5-1 {
+.internship-page {
     background: url(images/P6_bg.png) #91c32e;
     background-size: cover;
 }
 
-.page-6-1 {
+.benefits-package-page {
     background: url(images/P7_bg.png) #3eb9c0;
     background-size: cover;
 }
 
-.page-7-1 {
+.contact-page {
     background: url(images/P1_bg.png) #0a763c;
     background-size: cover;
 }
@@ -196,7 +186,7 @@ top:15px;
     z-index: 1;
 }
 
-.page-1-1 .img_1 {
+.home-page .img_1 {
     height: auto;
     width: 40%;
     position: absolute;
@@ -205,7 +195,7 @@ top:15px;
     margin-left: -22%;
 }
 
-.page-1-1 .img_2 {
+.home-page .img_2 {
     height: auto;
     width: 70%;
     position: absolute;
@@ -214,7 +204,7 @@ top:15px;
     margin-left: -37%;
 }
 
-.page-1-1 .img_3 {
+.home-page .img_3 {
     height: auto;
     width: 80%;
     position: absolute;
@@ -223,7 +213,7 @@ top:15px;
     margin-left: -42%;
 }
 
-.page-2-1 .img_1 {
+.introduction-page .img_1 {
     height: auto;
     width: 80%;
     position: absolute;
@@ -233,7 +223,7 @@ top:15px;
     z-index: 2;
 }
 
-.page-3-1 .img_1 {
+.development-page .img_1 {
     height: auto;
     width: 72%;
     position: absolute;
@@ -242,7 +232,7 @@ top:15px;
     margin-left: -45%;
 }
 
-.page-3-1 .img_2 {
+.development-page .img_2 {
     height: auto;
     width: 62%;
     position: absolute;
@@ -251,7 +241,7 @@ top:15px;
     margin-left: -35%;
 }
 
-.page-3-1 .img_3 {
+.development-page .img_3 {
     height: auto;
     width: 72%;
     position: absolute;
@@ -260,7 +250,7 @@ top:15px;
     margin-left: -32%;
 }
 
-.page-3-1 .text_3 {
+.development-page .text_3 {
     height: auto;
     width: 100%;
     position: absolute;
@@ -269,19 +259,19 @@ top:15px;
     margin-left: -35%;
 }
 
-    .page-3-1 .text_3 .header {
+    .development-page .text_3 .header {
         color: #2c1050;
     }
 
-    .page-3-1 .text_3 .body {
+    .development-page .text_3 .body {
         color: #571297;
     }
 
-    .page-3-1 .text_3 .footer {
+    .development-page .text_3 .footer {
         color: #CEADEC;
     }
 
-.page-3-1 .img_4 {
+.development-page .img_4 {
     height: auto;
     width: 98%;
     position: absolute;
@@ -290,7 +280,7 @@ top:15px;
     margin-left: -50%;
 }
 
-/*.page-4-1 .img_1 {
+/*.operation-service-page .img_1 {
     height: auto;
     width: 72%;
     position: absolute;
@@ -299,7 +289,7 @@ top:15px;
     margin-left: -45%;
 }
 
-.page-4-1 .img_2 {
+.operation-service-page .img_2 {
     height: auto;
     width: 62%;
     position: absolute;
@@ -308,7 +298,7 @@ top:15px;
     margin-left: -35%;
 }
 
-.page-4-1 .img_3 {
+.operation-service-page .img_3 {
     height: auto;
     width: 72%;
     position: absolute;
@@ -317,7 +307,7 @@ top:15px;
     margin-left: -32%;
 }
 
-.page-4-1 .text_3 {
+.operation-service-page .text_3 {
     height: auto;
     width: 100%;
     position: absolute;
@@ -326,19 +316,19 @@ top:15px;
     margin-left: -35%;
 }
 
-    .page-4-1 .text_3 .header {
+    .operation-service-page .text_3 .header {
         color: #2c1050;
     }
 
-    .page-4-1 .text_3 .body {
+    .operation-service-page .text_3 .body {
         color: #571297;
     }
 
-    .page-4-1 .text_3 .footer {
+    .operation-service-page .text_3 .footer {
         color: #CEADEC;
     }
 
-.page-4-1 .img_4 {
+.operation-service-page .img_4 {
     height: auto;
     width: 98%;
     position: absolute;
@@ -347,7 +337,7 @@ top:15px;
     margin-left: -50%;
 }*/
 
-.page-4-1 .img_1 {
+.operation-service-page .img_1 {
     height: auto;
     width: 78%;
     position: absolute;
@@ -356,7 +346,7 @@ top:15px;
     margin-left: -45%;
 }
 
-.page-4-1 .img_2 {
+.operation-service-page .img_2 {
     height: auto;
     width: 28%;
     position: absolute;
@@ -365,7 +355,7 @@ top:15px;
     margin-left: -32%;
 }
 
-.page-4-1 .img_3 {
+.operation-service-page .img_3 {
     height: auto;
     width: 72%;
     position: absolute;
@@ -374,7 +364,7 @@ top:15px;
     margin-left: -32%;
 }
 
-.page-4-1 .text_3 {
+.operation-service-page .text_3 {
     height: auto;
     width: 100%;
     position: absolute;
@@ -383,15 +373,15 @@ top:15px;
     margin-left: -35%;
 }
 
-    .page-4-1 .text_3 .header {
+    .operation-service-page .text_3 .header {
         color: #0B4B52;
     }
 
-    .page-4-1 .text_3 .body {
+    .operation-service-page .text_3 .body {
         color: #0D565D;
     }
 
-.page-4-1 .img_4 {
+.operation-service-page .img_4 {
     height: auto;
     width: 98%;
     position: absolute;
@@ -400,7 +390,7 @@ top:15px;
     margin-left: -50%;
 }
 
-.page-5-1 .img_1 {
+.internship-page .img_1 {
     height: auto;
     width: 78%;
     position: absolute;
@@ -409,7 +399,7 @@ top:15px;
     margin-left: -45%;
 }
 
-.page-5-1 .img_2 {
+.internship-page .img_2 {
     height: auto;
     width: 28%;
     position: absolute;
@@ -418,7 +408,7 @@ top:15px;
     margin-left: -32%;
 }
 
-.page-5-1 .text_3 {
+.internship-page .text_3 {
     height: auto;
     width: 100%;
     position: absolute;
@@ -427,15 +417,15 @@ top:15px;
     margin-left: -35%;
 }
 
-    .page-5-1 .text_3 .header {
+    .internship-page .text_3 .header {
         color: #4D681A;
     }
 
-    .page-5-1 .text_3 .body {
+    .internship-page .text_3 .body {
         color: #3E570C;
     }
 
-.page-5-1 .img_3 {
+.internship-page .img_3 {
     height: auto;
     width: 72%;
     position: absolute;
@@ -444,7 +434,7 @@ top:15px;
     margin-left: -32%;
 }
 
-.page-5-1 .img_4 {
+.internship-page .img_4 {
     height: auto;
     width: 98%;
     position: absolute;
@@ -453,7 +443,7 @@ top:15px;
     margin-left: -50%;
 }
 
-.page-6-1 .img_1 {
+.benefits-package-page .img_1 {
     height: auto;
     width: 80%;
     position: absolute;
@@ -463,7 +453,7 @@ top:15px;
     z-index: 2;
 }
 
-.page-6-1 .img_2 {
+.benefits-package-page .img_2 {
     height: auto;
     width: 80%;
     position: absolute;
@@ -472,7 +462,7 @@ top:15px;
     margin-left: -40%;
 }
 
-.page-6-1 .img_3 {
+.benefits-package-page .img_3 {
     height: auto;
     width: 94%;
     position: absolute;
@@ -483,7 +473,7 @@ top:15px;
 
 
 
-.page-7-1 .img_1 {
+.contact-page .img_1 {
     height: auto;
     width: 90%;
     position: absolute;
@@ -493,7 +483,7 @@ top:15px;
     z-index: 1;
 }
 
-.page-7-1 .img_2 {
+.contact-page .img_2 {
     height: auto;
     width: 65%;
     position: absolute;
@@ -510,13 +500,13 @@ top:15px;
 }
 
 
-.page-7-1 .div_mian {
+.contact-page .div_mian {
     height: auto;
     position: absolute;
     top: 59%;
 }
 
-.page-7-1 .img_4 {
+.contact-page .img_4 {
     height: auto;
     width: 32%;
     position: relative;
@@ -526,7 +516,7 @@ top:15px;
     z-index: 1;
 }
 
-.page-7-1 .img_5 {
+.contact-page .img_5 {
     height: auto;
     width: 32%;
     position: relative;
@@ -536,7 +526,7 @@ top:15px;
     z-index: 1;
 }
 
-.page-7-1 .img_6 {
+.contact-page .img_6 {
     height: auto;
     width: 40%;
     position: absolute;
