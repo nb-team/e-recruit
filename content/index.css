@@ -7,6 +7,16 @@ body {
     display: none;
 }
 
+.li-line-spacing {
+margin-top:-25px;
+}
+.title img {
+position:relative;
+top:15px;
+-moz-transform:rotate(30deg);
+-webkit-transform:rotate(30deg);
+}
+
 #audio_btn {
     position: absolute;
     right: 10px;
